@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushi's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#home" class="logo">Khushi's <span>Portfolio</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="darkmode-toggle" class="btn">
+            <div class="btn__indicator">
+                <div class="btn__icon-container">
+                    <i class="btn__icon fa-solid"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I am <span>Khushi</span></h1>
+            <h3 class="text-animation">I'm a <span>Web Developer</span></h3>
+            <p>Hello! I'm a passionate web developer with experience in HTML, CSS, JavaScript, and AI/ML. I'm constantly exploring new technologies and aim to create impactful solutions.</p>
+            <!-- <div class="btn-group">
+                <a href="https://drive.google.com/file/d/1EUY5WFS-ZwhPiZD3AtGR8it5GIYZEf0J/view?usp=sharing" download class="btn">Download Resume</a>
+            </div> -->
+        </div>
+        <div class="home-img">
+            <img src="kumawat.png" alt="Khushi's Picture">
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Senior Secondary School</h3>
+                    <p>Class 12th || Vidhya Bhawan School || RBSE Board, Rajasthan || Year of Passing: 2022 || Percentage: 72.60%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3> MLSU University</h3>
+                    <p>Bachelor of Arts || Meera Girls College, MLSU University || Graduation Year: 2025</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Web Development Course</h3>
+                    <p>18-month course focusing on JavaScript, HTML, CSS, and problem-solving skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <h2 class="section-title">My Projects</h2>
+    <div class="filter-buttons">
+    </div>
+ 
+    <div class="project-container">
+        <div class="project-card">
+            <h3>Recipe Menu</h3>-
+            <p>A fully responsive recipe website built using HTML, CSS, and JavaScript.</p>
+            <a href=" https://khushikumawat2004.github.io/Recipe-Book/" class="project-link">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Todo List</h3>
+            <p>A modern user interface design for a mobile app.</p>
+            <a href="https://khushikumawat2004.github.io/To-do-list/" class="project-link">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Flag</h3>
+            <p>A fully responsive website for a Flag using HTML and CSS</p>
+            <a href=" https://khushikumawat2004.github.io/Flag/" class="project-link">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Explore Popular Destinations</h3>
+            <p>A responsive train ticket booking website built using HTML, CSS, and JavaScript.</p>
+            <a href="https://khushikumawat2004.github.io/Travel/" class="project-link">View Project</a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://drive.google.com/file/d/1EUY5WFS-ZwhPiZD3AtGR8it5GIYZEf0J/view?usp=sharing" method="POST" id="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="name" name="name" autocomplete="off" required />
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" id="email" name="email" autocomplete="off" required />
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number" id="phone" name="phone" autocomplete="off" required />
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" id="subject" name="subject" autocomplete="off" required />
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message" name="textarea" autocomplete="off" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="social">
+            <a href="mailto:nehaverma@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+            <a href="https://github.com/khushikumawat2004" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/nehav03bb70278/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="mailto:khushikumawat23@navgurukul.org">Email</a></li>
+            <li><a href="https://github.com/khushikumawat2004">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/khushi-kumawat-5b96322bb/">LinkedIn</a></li>
+        </ul>
+        <p class="copyright">
+            <i class='bx bx-copyright'></i> | Created By Khushi | 2024
+        </p>
+    </footer>
+
+    <!-- JavaScript for dark mode toggle -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
